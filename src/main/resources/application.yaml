@@ -1,5 +1,5 @@
 server:
-  port: 6666
+  port: 4887
 
 spring:
   application:
@@ -8,3 +8,17 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
+
+# Knife4j配置
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn

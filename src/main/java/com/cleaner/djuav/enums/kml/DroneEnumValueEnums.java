@@ -9,7 +9,8 @@ public enum DroneEnumValueEnums {
     M300_RTK(60, "M300 RTK"),
     M30_M30T(67, "M30/M30T"),
     M3E_M3T_M3M(77, "M3E/M3T/M3M"),
-    M3D_M3TD(91, "M3D/M3TD");
+    M3D_M3TD(91, "M3D/M3TD"),
+    M4D_M4TD(100, "M4D/M4TD");
 
     private Integer value;
     private String description;

@@ -17,7 +17,9 @@ public enum PayloadTypeEnums {
     MATRICE_3TD(81, "Matrice 3TD 相机"),
     PSDK(65534, "PSDK 负载"),
     H30(82, "H30"),
-    H30T(83, "H30T");
+    H30T(83, "H30T"),
+    M4TD(99, "M4TD"),
+    ;
 
     private Integer value;
     private String description;
