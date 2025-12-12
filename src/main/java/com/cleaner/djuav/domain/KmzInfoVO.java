@@ -2,7 +2,8 @@ package com.cleaner.djuav.domain;
 
 import com.cleaner.djuav.domain.kml.KmlInfo;
 import lombok.Data;
-
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import java.io.Serializable;
 
 /**
@@ -10,6 +11,7 @@ import java.io.Serializable;
  * Date: 2024/12/22 10:46
  **/
 @Data
+@JsonNaming(PropertyNamingStrategies.LowerCamelCaseStrategy.class)
 public class KmzInfoVO implements Serializable {
 
     /**
@@ -23,3 +25,4 @@ public class KmzInfoVO implements Serializable {
     private KmlInfo wpmlInfo;
 
 }
+
