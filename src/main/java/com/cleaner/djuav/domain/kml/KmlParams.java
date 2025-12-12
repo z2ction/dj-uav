@@ -35,6 +35,11 @@ public class KmlParams {
     private Integer payloadType;
 
     /**
+     * 负载子类型
+     */
+    private Integer payloadSubType;
+
+    /**
      * 负载挂载位置
      */
     private Integer payloadPosition;
